@@ -1,0 +1,11 @@
+int pictureInRow = 3;
+        int picture = 52;
+        int fullRows;
+        int beyondMeasure;
+
+        fullRows = picture / pictureInRow;
+        beyondMeasure = picture % pictureInRow;
+
+        Console.WriteLine("Заполненых рядов: " + fullRows);
+        Console.WriteLine("Картинок сверх меры: " + beyondMeasure);
+        Console.ReadKey();
